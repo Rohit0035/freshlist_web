@@ -127,13 +127,15 @@ const SingleProduct = ({
                     </div>
                      {/* rohit select */}
                     <div>
+                    <div>
                         <select className="form-control">
-                             <option>1</option>
-                             <option>2</option>
-                             <option>3</option>
-                             <option>4</option>
-                             <option>5</option>
+                             <option selected>--Select Quantity--</option>
+                             <option>1 K.G.</option>
+                             <option>2 K.G.</option>
+                             <option>3 K.G.</option>
+                             <option>5 K.G.</option>
                         </select> 
+                     </div>
                     </div>
 
                     <div className="product-card-bottom">

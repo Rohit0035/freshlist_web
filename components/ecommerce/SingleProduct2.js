@@ -125,6 +125,16 @@ const SingleProduct2 = ({
                         </div>
                         <span className="font-xs text-heading"> Sold: 90/120</span>
                     </div>
+                     {/* rohit select */}
+                     <div>
+                        <select className="form-control">
+                             <option selected>--Select Quantity--</option>
+                             <option>1 K.G.</option>
+                             <option>2 K.G.</option>
+                             <option>3 K.G.</option>
+                             <option>5 K.G.</option>
+                        </select> 
+                     </div>
 
                     <a
                         className="btn w-100 hover-up"
