@@ -389,7 +389,7 @@ const Footer = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/">
+                                    <a href="/location">
                                     <img src="/assets/imgs/theme/glass.png" alt="" width={30}/>
                                      <p>Search</p>
                                     </a>

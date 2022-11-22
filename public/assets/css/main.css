@@ -11720,10 +11720,12 @@ footer .hotline img {
 
 
 /* rohit css */
+input.form-control.loc-int {
+  margin-bottom: 15px;
+}
 .product-list-small.animated.animated {
-  padding: 5px;
-  background: #9ca1a321;
-  border: 1px solid#7eb2004a;
+  padding: 10px;
+  border: 1px solid#adaeaa73;
   border-radius: 4px;
 }
 a.add.sty-1 {

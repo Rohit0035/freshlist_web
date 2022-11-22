@@ -485,11 +485,11 @@ const Header = ({
                                                     </li>
                                                 </ul> */}
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <Link href="/page-about">
                                                     <a>About</a>
                                                 </Link>
-                                            </li>
+                                            </li> */}
                                             <li>
                                                 <Link href="/shop-grid-right">
                                                     <a>
@@ -898,11 +898,11 @@ const Header = ({
                                                     </li>
                                                 </ul>
                                             </li> */}
-                                            <li>
+                                            {/* <li>
                                                 <Link href="/page-contact">
                                                     <a>Contact</a>
                                                 </Link>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </nav>
                                 </div>
