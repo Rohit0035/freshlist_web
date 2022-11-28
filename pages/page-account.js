@@ -14,7 +14,7 @@ function Account() {
     return (
         <>
             <Layout parent="Home" sub="Pages" subChild="Account">
-                <div className="page-content pt-150 pb-150">
+                <div className="page-content pt-100 pb-100">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-10 m-auto">

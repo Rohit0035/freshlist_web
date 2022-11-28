@@ -78,7 +78,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         Categories
                                     </a>
                                 </Link>
-                                <div className="categori-dropdown-wrap categori-dropdown-active-small">
+                                <div className="categori-dropdown-wrap categori-dropdown-active-small rt-1">
                                     <ul>
                                         <li>
                                            <Link href="/shop-grid-right">
@@ -170,8 +170,8 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Mega menu</a>
+                                        <Link href="/vendors-list">
+                                            <a>Brands</a>
                                         </Link>
                                     </li>
                                     <li>

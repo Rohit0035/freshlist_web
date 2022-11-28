@@ -4,6 +4,7 @@ import Breadcrumb from "./Breadcrumb";
 import Footer from "./Footer";
 import Header from "./Header";
 import MobileMenu from "./MobileMenu";
+import Script from "next/script";
 
 const Layout = ({
     children,
@@ -33,6 +34,15 @@ const Layout = ({
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
+              <Script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg8bRuV-VrBPOB2KOtMJ7mrGkD8trhoZM"></Script>
+
+             <Script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg8bRuV-VrBPOB2KOtMJ7mrGkD8trhoZM"></Script>
+
+             <Script
+              type="text/javascript"
+               src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg8bRuV-VrBPOB2KOtMJ7mrGkD8trhoZM"
+             ></Script>
+
             {isToggled && <div className="body-overlay-1" onClick={toggleClick}></div>}
 
             <Header headerStyle={headerStyle} isToggled={isToggled} toggleClick={toggleClick} />
@@ -41,6 +51,7 @@ const Layout = ({
                 <Breadcrumb parent={parent} sub={sub} subChild={subChild} noBreadcrumb={noBreadcrumb} />
                 {children}
             </main>
+
             <Footer />
         </>
     );

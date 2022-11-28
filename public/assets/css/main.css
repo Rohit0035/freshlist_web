@@ -11723,6 +11723,11 @@ footer .hotline img {
 input.form-control.loc-int {
   margin-bottom: 15px;
 }
+.locate-box {
+  box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px, rgb(27 31 35 / 15%) 0px 0px 0px 1px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
 .product-list-small.animated.animated {
   padding: 10px;
   border: 1px solid#adaeaa73;
@@ -11737,26 +11742,29 @@ a.add.sty-1 {
     float: right;
 }
 ul.st-1{
-  text-align: center;
-  background: #fff;
-  min-height: 53px;
-  position: fixed;
-  bottom: 0;
-  width: 93%;
-  z-index: 100;
-  border-top: 5px solid #7eb200;
-  padding: 12px 0px;
-  margin-right: 21px;
+    background: #fff;
+    min-height: 53px;
+    position: fixed;
+    bottom: 0;
+    width: 93%;
+    z-index: 100;
+    border-top: 5px solid #7eb200;
+    padding: 12px 0px;
+    text-align: center;
 }
 ul.st-1 li {
-  display: inline-block;
-  margin: 0  3%;
+  display: inline-flex;
+  text-align: center;
 }
 h1.mb-5.st-2 {
   font-size: 30px;
   margin-bottom: 23px !important;
 }
 
+
+
+
+/* responsive css  */
 
 @media only screen and (min-width: 1200px) {
   ul.st-1{
@@ -11765,6 +11773,31 @@ h1.mb-5.st-2 {
     display: none;
   }
 }
+
+@media only screen and (min-width: 992px) {
+  ul.st-1{
+    display: inline-block;
+    margin: 0 33px;
+    display: none;
+  }
+  .categori-dropdown-wrap.categori-dropdown-active-small {
+    display: inline-block !important;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  ul.st-1 li {
+    display: inline-flex;
+    text-align: center;
+    margin: 0  7%;
+ }
+ .header-action-icon-2.d-block.d-lg-none.stt {
+  visibility: hidden;
+ }
+}
+
 @media only screen and (max-width: 600px) {
   p.font-sm.mb-0 {
     display: none;
@@ -11772,5 +11805,22 @@ h1.mb-5.st-2 {
   .col-lg-1-5.col-md-4.col-12.col-sm-6 {
     width: 50%;
   }
-
+  .categori-dropdown-wrap.categori-dropdown-active-small {
+    display: inline-block !important;
+  }
+  .categori-dropdown-wrap.categori-dropdown-active-small.rt-1 ul li {
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .categori-dropdown-wrap.categori-dropdown-active-small.rt-1 ul {
+    margin-top: 20px;
+  }
+  .header-action-icon-2.d-block.d-lg-none.stt {
+    visibility: hidden;
+  }
+  ul.st-1 li {
+    display: inline-flex;
+    text-align: center;
+    margin: 0  4%;
+ }
 }

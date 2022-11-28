@@ -229,19 +229,19 @@ const Footer = () => {
                                 <h4 className="widget-title">Company</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="#">About Us</a>
+                                        <a href="/page-about">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Delivery Information</a>
+                                        <a href="/page-purchase-guide">Delivery Information</a>
                                     </li>
                                     <li>
-                                        <a href="#">Privacy Policy</a>
+                                        <a href="/pagepolicy">Privacy Policy</a>
                                     </li>
                                     <li>
-                                        <a href="#">Terms &amp; Conditions</a>
+                                        <a href="/page-terms">Terms &amp; Conditions</a>
                                     </li>
                                     <li>
-                                        <a href="#">Contact Us</a>
+                                        <a href="/page-contact">Contact Us</a>
                                     </li>
                                     <li>
                                         <a href="#">Support Center</a>

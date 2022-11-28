@@ -34,7 +34,7 @@ const Cart = ({
                 <section className="mt-50 mb-50">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-8 mb-40">
+                            <div className="col-lg-12 mb-40">
                                 <h1 className="heading-2 mb-10">Your Cart</h1>
                                 <div className="d-flex justify-content-between">
                                     <h6 className="text-body">
@@ -52,7 +52,7 @@ const Cart = ({
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-lg-8">
+                            <div className="col-lg-12">
                                 <div className="table-responsive shopping-summery">
                                     {cartItems.length <= 0 && "No Products"}
                                     <table
@@ -1094,7 +1094,7 @@ const Cart = ({
                                                     </tbody>
                                                 </table>
                                             </div>
-                                            <a href="#" className="btn ">
+                                            <a href="/shop-checkout" className="btn ">
                                                 <i className="fi-rs-box-alt mr-10"></i>
                                                 Proceed To CheckOut
                                             </a>
