@@ -67,13 +67,13 @@ const SingleProduct2 = ({
                         >
                             <i className="fi-rs-heart"></i>
                         </a>
-                        <a
+                        {/* <a
                             aria-label="Compare"
                             className="action-btn hover-up"
                             onClick={(e) => handleCompare(product)}
                         >
                             <i className="fi-rs-shuffle"></i>
-                        </a>
+                        </a> */}
                     </div>
 
                     <div className="product-badges product-badges-position product-badges-mrg">
@@ -128,8 +128,8 @@ const SingleProduct2 = ({
                      {/* rohit select */}
                      <div>
                         <select className="form-control">
-                             <option selected>--Select Quantity--</option>
-                             <option>1 K.G.</option>
+                             {/* <option selected>--Select Quantity--</option> */}
+                             <option selected >1 K.G.</option>
                              <option>2 K.G.</option>
                              <option>3 K.G.</option>
                              <option>5 K.G.</option>

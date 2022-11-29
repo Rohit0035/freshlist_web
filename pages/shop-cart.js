@@ -195,17 +195,20 @@ const Cart = ({
                                         </tbody>
                                     </table>
                                 </div>
-                                <div className="cart-action text-end">
-                                    <a className="btn ">
-                                        <i className="fi-rs-shopping-bag mr-10"></i>
-                                        Continue Shopping
-                                    </a>
-                                </div>
+                               
                                 <div className="divider center_icon mt-50 mb-50">
                                     <i className="fi-rs-fingerprint"></i>
                                 </div>
                                 <div className="row mb-50">
                                     <div className="col-lg-6 col-md-12">
+                                        <div className="cart-action text-end">
+                                            <a className="btn ">
+                                                <i className="fi-rs-shopping-bag mr-10"></i>
+                                                Continue Shopping
+                                            </a>
+                                        </div>
+                                    </div>
+                                    {/* <div className="col-lg-6 col-md-12">
                                         <div className="heading_s1 mb-3">
                                             <h4>Calculate Shipping</h4>
                                         </div>
@@ -1050,7 +1053,7 @@ const Cart = ({
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="col-lg-6 col-md-12">
                                         <div className="border p-md-4 p-30 border-radius cart-totals">
                                             <div className="heading_s1 mb-3">

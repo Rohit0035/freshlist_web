@@ -11760,8 +11760,17 @@ h1.mb-5.st-2 {
   font-size: 30px;
   margin-bottom: 23px !important;
 }
-
-
+select.form-control.rt-1 {
+  padding: 0 15px;
+  height: 30px;
+  font-size: 12px;
+}
+.vendor-img-action-wrap.rt-2 {
+  width: 100%;
+}
+.text-end {
+  text-align: left!important;
+}
 
 
 /* responsive css  */
@@ -11823,4 +11832,20 @@ h1.mb-5.st-2 {
     text-align: center;
     margin: 0  4%;
  }
+ .popular-categories .slider-btn.slider-prev {
+  right: 0px !important; 
+  left: unset !important;
+ }
+ .slider-arrow.slider-arrow-2.flex-right {
+   display: flex;
+  }
+.burger-icon {
+    position: relative;
+    width: 24px;
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    position: absolute;
+    right: 331px;
+  }
 }

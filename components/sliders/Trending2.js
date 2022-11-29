@@ -40,6 +40,14 @@ const TrendingSlider = () => {
                             </div>
                             <span className="font-small ml-5 text-muted"> (4.0)</span>
                         </div>
+                        <div className="slt-box">
+                            <select className="form-control rt-1">
+                                 <option>1 kg</option>
+                                 <option>2 kg</option>
+                                 <option>3 kg</option>
+                                 <option>4 kg</option>
+                            </select>
+                        </div>
                         <div className="product-price">
                             <span>${product.price} </span>
                             <span className="old-price">{product.oldPrice && `$ ${product.oldPrice}`}</span>

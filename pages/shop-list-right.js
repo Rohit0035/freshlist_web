@@ -274,12 +274,7 @@ const ProductsList = ({ products, productFilters, fetchProduct }) => {
                         <div className="col-xl-3">
                             
                         </div>
-                        <div className="col-md-9">
-                            
-
-                            
-
-                            
+                        <div className="col-md-9">                   
                         </div>
                     </div>
                 </div> */}

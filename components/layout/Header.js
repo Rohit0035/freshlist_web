@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import CategoryProduct2 from "../ecommerce/Filter/CategoryProduct2";
 import CategoryProduct3 from "../ecommerce/Filter/CategoryProduct3";
 import Search from "../ecommerce/Search";
+import Dropdown from 'react-bootstrap/Dropdown';
 
 const Header = ({
     totalCartItems,
@@ -24,7 +25,7 @@ const Header = ({
     });
 
     const handleToggle = () => setToggled(!isToggled);
-
+   
     return (
         <>
             <header className="header-area header-style-1 header-height-2">
@@ -40,16 +41,16 @@ const Header = ({
                             <div className="col-xl-4 col-lg-4">
                                 <div className="header-info">
                                     <ul>
-                                        <li>
+                                        {/* <li>
                                             <Link href="/page-about">
                                                 <a>About Us</a>
                                             </Link>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                        {/* <li>
                                             <Link href="/page-account">
                                                 <a>My Account</a>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <Link href="/shop-wishlist">
                                                 <a>Wishlist</a>
@@ -134,7 +135,7 @@ const Header = ({
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <a
                                                 className="language-dropdown-active"
                                                 href="#"
@@ -171,7 +172,7 @@ const Header = ({
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -390,7 +391,7 @@ const Header = ({
                                             <div className="d-flex categori-dropdown-inner">
                                                 <ul>
                                                     <li>
-                                                        <Link href="/products"><a>
+                                                        <Link href="/products" ><a>
                                                             {" "}
                                                             <img
                                                                 src="/assets/imgs/theme/icons/icon-1.svg"
@@ -398,6 +399,7 @@ const Header = ({
                                                             />
                                                             Milks and Dairies
                                                         </a></Link>
+                                                        
                                                     </li>
                                                     <li>
                                                         <Link href="/products"><a>
@@ -434,6 +436,7 @@ const Header = ({
                                                 </ul>
                                             </div>
                                         </div>
+ 
                                         <div className="more_categories">
                                             <span className="icon"></span>{" "}
                                             <span className="heading-sm-1">
@@ -491,7 +494,7 @@ const Header = ({
                                                 </Link>
                                             </li> */}
                                             <li>
-                                                <Link href="/shop-grid-right">
+                                                <Link href="/shop-list-left">
                                                     <a>
                                                         Shop
                                                         {/* <i className="fi-rs-angle-down"></i> */}

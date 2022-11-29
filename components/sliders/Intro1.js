@@ -32,7 +32,7 @@ const Intro1 = () => {
                                 <br />
                                 grocery deals
                             </h1>
-                            <p className="mb-65">
+                            {/* <p className="mb-65">
                                 Sign up for the daily newsletter
                             </p>
                             <form className="form-subcriber d-flex">
@@ -43,7 +43,7 @@ const Intro1 = () => {
                                 <button className="btn" type="submit">
                                     Subscribe
                                 </button>
-                            </form>
+                            </form> */}
                         </div>
                     </div>
                 </SwiperSlide>
