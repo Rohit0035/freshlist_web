@@ -26,7 +26,7 @@ function Custom404() {
                                     </h1>
                                     <p className="font-lg text-grey-700 mb-30">
                                         The link you clicked may be broken or
-                                        the page may have been removed.
+                                        the page may have been gfggfgfggremoved.
                                         <br />
                                         visit the{" "}
                                         <Link href="/"><a>
