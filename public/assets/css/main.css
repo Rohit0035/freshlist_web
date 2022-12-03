@@ -11771,7 +11771,49 @@ select.form-control.rt-1 {
 .text-end {
   text-align: left!important;
 }
-
+.accordion-button:not(.collapsed) {
+  color: #8bc34a;
+  background-color: #fff;
+  font-weight: 700;
+  padding: 30px 15px;
+  font-size: 20px;
+}
+button.accordion-button.collapsed{
+  color: #8bc34a;
+  background-color: #fff;
+  font-weight: 700;
+  padding: 30px 15px;
+  font-size: 20px;
+}
+.accordion-button:not(.collapsed)::after{
+  display: none;
+}
+.accordion-button::after{
+  display: none;
+}
+span.chk-2 {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border: 2px solid;
+  color: #8bc34a;
+  text-align: center;
+  padding: 6px 0px;
+  border-radius: 100%;
+  margin-right: 12px;
+}
+.chk-3 {
+  text-align: end;
+}
+.add-1 h4 span{
+  float: right;
+}
+.add-1 {
+  padding: 20px;
+  margin-bottom: 10px;
+  background: #cccccc3b;
+  border-radius: 4px;
+}
 
 /* responsive css  */
 
